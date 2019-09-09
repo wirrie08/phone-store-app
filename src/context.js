@@ -24,7 +24,7 @@ class ProductProvider extends Component {
       tempProducts = [...tempProducts, singleItem];
     });
     this.setState(() => {
-      console.log(tempProducts);
+      
       return { products: tempProducts };
     });
   };
